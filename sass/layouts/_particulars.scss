@@ -1,0 +1,32 @@
+.particulars {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .particulars__title {
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  .particulars__text {
+    margin: 0;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  
+  .particulars__item {
+    width: 270px;
+  }
+  
+  .particulars__cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+  }
