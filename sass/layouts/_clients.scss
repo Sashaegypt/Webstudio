@@ -15,6 +15,15 @@
   .clients {
     display: flex;
     gap: 30px;
+    @media screen and(min-width:480px){
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    @media screen and(min-width:480px){
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   .clients__items {
     width: 170px;

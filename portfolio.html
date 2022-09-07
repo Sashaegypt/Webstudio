@@ -13,46 +13,38 @@
    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
-    <!--Header container-->
+   
 
     <header class="header">
+      <a class="nav__webstudio mobile" href="./index.html"><span class="Web">Web</span>Studio</a>
+     <button class="menu-toggle js-open-menu">
+          <svg class="icon-open" width="24" heigth="16">
+            <use href="./images/icons..svg#icon-menu"></use>
+          </svg>
+        </button>
+
       <div class="container nav">
+          <nav class="nav">
+            <a class="nav__webstudio" href="./index.html"><span class="Web">Web</span>Studio</a>
+          <ul class="nav__list">
+          <li class="nav__link"><a class="link studio" href="./index.html">Студия</a>
+          </li>
+          <li class="nav__link"><a class="link portfolio current portf" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav__link"><a class="link cont " href="./index.html">Контакты</a></li>
+         </ul>
+        
+         </nav> 
         
          
-          <!--Hav-->
-     
-          <nav class="nav">
-         
-            <a class="nav__webstudio" href="./index.html"><span class="Web">Web</span>Studio</a>
-           <ul class="nav__list">
-            <li class="nav__link"><a class="link studio " href="./index.html">Студия</a>
-            </li>
-            <li class="nav__link"><a class="link portfolio current portf" href="./portfolio.html">Портфолио</a></li>
-            <li class="nav__link"><a class="link contacts " href="./index.html">Контакты</a></li>
+           <ul class="contact">
+           <li class="contact__item"><a class="mail flex-con" href="mailto:info@devstudio.com">
+             <svg class="contact__icon" width="16px" height="12px"><use href=".//images/icons..svg#icon-envelope-hover"></use></svg>info@devstudio.com</a></li>
+             <li class="contact__item"><a class="tel flex-con" href="tel:+380961111111">
+               <svg class="contact__icon" width="10px" height="16px"><use href="./images/icons..svg#icon-smartphone"></use></svg> +38 096 111 11 11</a></li>
            </ul>
-          
-           </nav> 
-  
-          
-  
-          <!--Contacts Header--> 
-         
-             <ul class="contact">
-             <li class="contact__item"><a class="mail flex-con" href="mailto:info@devstudio.com">
-               <svg class="contact__icon" width="16px" height="12px"><use href=".//images/icons..svg#icon-envelope-hover"></use></svg>info@devstudio.com</a></li>
-               <li class="contact__item"><a class="tel flex-con" href="tel:+380961111111">
-                 <svg class="contact__icon" width="10px" height="16px"><use href="./images/icons..svg#icon-smartphone"></use></svg> +38 096 111 11 11</a></li>
-             </ul>
-             
-                  
-  
-           
-          
-          
-    
-      </div>
-          </header>
-    <!--Main-->
+           </div> 
+        </header>
+   
     <main>
       <!--out buttons-->
       <section class="section">
@@ -61,8 +53,8 @@
         <li class="btns-links__item"><button type="button" class="btns-links__buttons">Все</button></li>
         <li class="btns-links__item"><button type="button" class="btns-links__buttons">Веб-сайты</button></li>
         <li class="btns-links__item"><button type="button" class="btns-links__buttons">Приложения</button></li>
-        <li class="btns-links__item"><button type="button" class="btns-links__buttons">Дизайн</button></li>
-        <li class="btns-links__item"><button type="button" class="btns-links__buttons">Маркетинг</button></li>
+        <li class="btns-links__item"><button type="button" class="btns-links__buttons btns">Дизайн</button></li>
+        <li class="btns-links__item"><button type="button" class="btns-links__buttons btns">Маркетинг</button></li>
       </ul>
    
     
@@ -214,16 +206,16 @@
       </ul>
     </div>
     </section>
-      
+    </main>
 
-    <!--Footer section-->
+
     <footer class="footer">
       <div class="container foot-cont">
         
-        <div>
-          <a href="./index.html" class="footer__webstudio"><span class="Web">Web</span>Studio</a>
+        <div class="foot__cont">
+          <a href="./index.html" class="footer__webstudio">Web<span class="Web-foot">Studio</span></a>
           <address>
-                <ul>
+                <ul class="address">
                    <li class="address__item"><a href ="https://goo.gl/maps/MFTDkAoGyG5AVStr5" class="adress" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li> 
                    <li class="address__item"><a href="mailto:info@example.com" class="mail__address">info@example.com</a></li>
                    <li class="address__item"><a href="tel:+380991111111" class="tel__address">+38 099 111 11 11</a></li> 
