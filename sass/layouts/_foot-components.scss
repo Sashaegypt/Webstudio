@@ -2,7 +2,6 @@
   @media screen and(min-width:480px){
   display: flex;
   justify-content: center;
-  padding-top: 66px;
   
   font-family: 'Raleway';
   font-style: normal;
@@ -121,7 +120,7 @@
 
 .soc-container {
   // margin-left: 70px;
-  @media screen and(min-width:480px){
+  @media screen and(max-width:767px){
     text-align: center;
     margin-top: 52px;
   }
@@ -178,7 +177,6 @@
   // margin-left: 93px;
   @media screen and(min-width:480px){
     text-align: center;
-    margin-top: 60px;
   }
   @media screen and(min-width:1200px){
     text-align: inherit;

@@ -1,14 +1,7 @@
 .footer {
     background-color: #2f303a;
-    @media screen and(min-width:480px){
-      height: 606px;
-    }
-    @media screen and(min-width:768px){
-      height: 463px;
-    }
-    @media screen and(min-width:1200px){
-      height: 252px;
-    }
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   
   .foot-cont {

@@ -6,8 +6,9 @@
       display: flex;
       height: 80px;
     }
-    @media screen and(min-width:1200px){
-      height: 80px;
+    @media screen and(min-width:768px) {
+      padding-top: 18px;
+      padding-bottom: 18px;
     }
   }
     .nav {
@@ -24,6 +25,7 @@
       }
       @media screen and(min-width: 1200px){
         display: flex;
+        gap: 0;
       }
     }
   
@@ -34,9 +36,6 @@
 }
   /* logo-website */
   .nav__webstudio {
-    margin-left: 15px;
-    
-    // margin-right: 93px;
     font-family: Raleway;
     font-weight: 700;
     color: black;
@@ -151,18 +150,20 @@
   }
   
   .contact__item {
-    margin-right: 50px;
     display: flex;
     text-align: center;
 
     &:last-child {
       margin-right: 0px;
     }
-    @media screen and(max-width:768px){
+    @media screen and(min-width:768px){
       margin-bottom: 10px;
       &:last-child{
         margin-bottom: 0;
       }
+    }
+    @media screen and(min-width:1200px){
+      margin-bottom: 0;
     }
   }
   

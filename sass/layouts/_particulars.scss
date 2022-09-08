@@ -1,11 +1,8 @@
 .particulars {
     // display: flex;
     // gap: 30px;
-    @media screen and(min-width:480px){
-       width: 450px;
-    }
+    
     @media screen and(min-width:768px){
-      width: 768px;
       
       display: flex;
       flex-wrap: wrap;
@@ -13,7 +10,6 @@
     }
     @media screen and(min-width:1200px){
       display: flex;
-       width: 1170px;
     }
   }
 
@@ -41,6 +37,10 @@
   .particulars__item {
     @media screen and(min-width:480px){
       width: 450px;
+      margin-bottom: 30px;
+      &:last-child{
+        margin-bottom: 0;
+      }
     }
     @media screen and(min-width:768px){
       width: 354px;
