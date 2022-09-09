@@ -13,10 +13,6 @@
   }
     .nav {
       // display: flex;
-  
-      @media screen and(max-width:767px) {
-        display: none;
-      }
       @media screen and(min-width:768px){
         display: flex;
         justify-content: center;
@@ -29,6 +25,7 @@
       }
     }
   
+
 .mobile{
   @media screen and(min-width:768px){
     display: none;
@@ -42,6 +39,10 @@
     text-decoration: none;
     font-size: 24px;
     line-height: 1.2;
+    @media screen and(min-width:480px){
+      display: block;
+    }
+    
     @media screen and(min-width:1200px){
       margin-right: 93px;
     }
@@ -117,7 +118,9 @@
   .nav__list{
     display: flex;
     align-self: center;
-   
+    @media screen and(max-width:767px){
+    display: none;
+  }
   }
   
   .nav__link {
@@ -136,6 +139,9 @@
   
   /* contacts / contact flex */
   .contact {
+    @media screen and(max-width:767px){
+    display: none;
+  }
     @media screen and(min-width:1200px){
       display: flex;
     margin-left: auto;

@@ -180,7 +180,10 @@
   }
   @media screen and(min-width:1200px){
     text-align: inherit;
-    margin-left: 93px;
+    margin-left: auto;
+  }
+  @media screen and(max-width:1199px){
+    margin-top: 60px;
   }
  }
  
