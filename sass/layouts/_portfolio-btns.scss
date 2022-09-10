@@ -7,6 +7,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
+      gap: 10px;
     }
     @media screen and(min-width:768px){
      display: flex;
@@ -46,7 +47,6 @@
   }
 .btns{
   @media screen and(min-width:480px){
-    margin-top: 15px;
   }
   @media screen and(min-width:768px){
     margin-top: 0;

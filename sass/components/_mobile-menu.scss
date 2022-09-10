@@ -17,6 +17,9 @@
   height: 16px;
 }
 .mobile-menu{
+  display: flex;
+  flex-direction: column;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -44,6 +47,10 @@
   top: 10px;
 }
 
+.mobile-nav{
+  margin-bottom: auto;
+}
+
 .mobile-nav__item{
   margin-bottom: 35px;
    &:last-child{
@@ -67,10 +74,7 @@
 }
 
 .contacts{
-  left: 15px;
-  top: 562px;
-  position: absolute;
-  margin-left: 15px;
+  margin-bottom: 64px;
 }
 
 .contacts__item{
@@ -121,9 +125,6 @@ text-decoration: none;
 color: #2196F3;
 }
 .social-links-menu{
-  position: absolute;
-  left: 40px;
-  top: 726px;
   display: flex;
   gap: 10px;
 

@@ -39,6 +39,8 @@
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -353,6 +355,13 @@ textarea::placeholder {
 }
 
 .mobile-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -388,6 +397,10 @@ textarea::placeholder {
   top: 10px;
 }
 
+.mobile-nav {
+  margin-bottom: auto;
+}
+
 .mobile-nav__item {
   margin-bottom: 35px;
 }
@@ -411,10 +424,7 @@ textarea::placeholder {
 }
 
 .contacts {
-  left: 15px;
-  top: 562px;
-  position: absolute;
-  margin-left: 15px;
+  margin-bottom: 64px;
 }
 
 .contacts__item {
@@ -464,9 +474,6 @@ textarea::placeholder {
 }
 
 .social-links-menu {
-  position: absolute;
-  left: 40px;
-  top: 726px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -528,14 +535,29 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 @media screen and (max-width: 767px) {
   .header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
@@ -962,7 +984,6 @@ img {
 @media screen and (min-width: 1200px) {
   .particulars__item {
     width: 270px;
-    height: 224px;
   }
 }
 
@@ -1727,6 +1748,7 @@ input:focus::-webkit-input-placeholder {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    gap: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1769,11 +1791,6 @@ input:focus::-webkit-input-placeholder {
   margin-right: 0;
 }
 
-@media screen and (min-width: 480px) {
-  .btns {
-    margin-top: 15px;
-  }
-}
 @media screen and (min-width: 768px) {
   .btns {
     margin-top: 0;
@@ -1833,6 +1850,7 @@ input:focus::-webkit-input-placeholder {
 @media screen and (max-width: 767px) {
   .projects__item {
     margin-left: 0;
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
