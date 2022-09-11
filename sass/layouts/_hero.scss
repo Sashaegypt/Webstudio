@@ -10,15 +10,16 @@
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
 
   @media screen and(max-width:767px){
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 118px;
-    padding-bottom: 118px;    // background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    // url(../images/hero-bg-mob.jpg);
+    padding-bottom: 118px;    
+     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg-mob.jpg);
     @media (min-device-screen-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx){

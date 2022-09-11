@@ -819,7 +819,6 @@ img {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-repeat: no-repeat;
 }
 @media screen and (max-width: 767px) {
   .hero {
@@ -834,6 +833,8 @@ img {
             align-items: center;
     padding-top: 118px;
     padding-bottom: 118px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-bg-mob.jpg);
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob.jpg);
   }
 }
 @media screen and (max-width: 767px) and (min-device-screen-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
